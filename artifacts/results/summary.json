@@ -1,0 +1,12 @@
+{
+  "n_test": 700,
+  "greedy_acc_base": 0.58,
+  "greedy_acc_ft": 0.65,
+  "api_acc": 0.92,
+  "router_acc": 0.88,
+  "esc_rate": 0.22,
+  "kept_local_error": 0.12,
+  "cost_saving_pct": 68.5,
+  "auroc_sep": 0.75,
+  "auroc_token": 0.62
+}

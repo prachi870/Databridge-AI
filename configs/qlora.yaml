@@ -1,0 +1,24 @@
+base_model: Qwen/Qwen2.5-Coder-3B-Instruct
+# Use 1.5B if GPU or time is tight
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target: all-linear
+  dora: false
+
+train:
+  epochs: 1
+  lr: 2.0e-4
+  per_device_bs: 4
+  grad_accum: 4
+  max_len: 768
+  warmup: 0.03
+
+data:
+  sft_questions: 4000
+  probe_questions: 1500
+  cal_dbs: 6
+
+seed: 7

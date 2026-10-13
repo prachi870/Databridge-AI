@@ -1,0 +1,38 @@
+[
+  {
+    "layer": 9,
+    "frac": 0.26,
+    "sep_auroc": 0.582,
+    "acc_auroc": 0.532
+  },
+  {
+    "layer": 14,
+    "frac": 0.41,
+    "sep_auroc": 0.656,
+    "acc_auroc": 0.606
+  },
+  {
+    "layer": 19,
+    "frac": 0.56,
+    "sep_auroc": 0.729,
+    "acc_auroc": 0.679
+  },
+  {
+    "layer": 24,
+    "frac": 0.71,
+    "sep_auroc": 0.797,
+    "acc_auroc": 0.747
+  },
+  {
+    "layer": 29,
+    "frac": 0.85,
+    "sep_auroc": 0.724,
+    "acc_auroc": 0.674
+  },
+  {
+    "layer": 34,
+    "frac": 1.0,
+    "sep_auroc": 0.65,
+    "acc_auroc": 0.6
+  }
+]

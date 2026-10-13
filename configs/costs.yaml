@@ -1,0 +1,8 @@
+# Update these with real, current numbers from your provider
+# Prices change frequently - check before running
+
+gpu_usd_per_hour: 0.0  # e.g. what you would pay to rent your GPU; 0.0 if free tier
+
+api:
+  input_usd_per_mtok: 3.0    # Example: Claude Sonnet pricing
+  output_usd_per_mtok: 15.0  # Check your provider's current pricing

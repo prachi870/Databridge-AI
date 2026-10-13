@@ -1,0 +1,23 @@
+[
+  {
+    "variant": "Base (no tuning)",
+    "trainable_params": 0,
+    "greedy_acc": 0.58,
+    "sep_auroc": 0.0,
+    "acc_at_20pct_esc": 0.58
+  },
+  {
+    "variant": "QLoRA r=8",
+    "trainable_params": 33554432,
+    "greedy_acc": 0.63,
+    "sep_auroc": 0.72,
+    "acc_at_20pct_esc": 0.86
+  },
+  {
+    "variant": "QLoRA r=16",
+    "trainable_params": 67108864,
+    "greedy_acc": 0.65,
+    "sep_auroc": 0.75,
+    "acc_at_20pct_esc": 0.88
+  }
+]

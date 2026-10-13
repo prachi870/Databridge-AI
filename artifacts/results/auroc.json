@@ -1,0 +1,42 @@
+[
+  {
+    "policy": "Entropy probe",
+    "auroc": 0.75,
+    "ci": [
+      0.72,
+      0.78
+    ]
+  },
+  {
+    "policy": "Accuracy probe",
+    "auroc": 0.68,
+    "ci": [
+      0.65,
+      0.71
+    ]
+  },
+  {
+    "policy": "Token entropy",
+    "auroc": 0.62,
+    "ci": [
+      0.58,
+      0.66
+    ]
+  },
+  {
+    "policy": "Sampling entropy",
+    "auroc": 0.71,
+    "ci": [
+      0.68,
+      0.74
+    ]
+  },
+  {
+    "policy": "Random",
+    "auroc": 0.5,
+    "ci": [
+      0.46,
+      0.54
+    ]
+  }
+]

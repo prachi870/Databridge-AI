@@ -1,0 +1,3 @@
+# Lightweight replay-mode web server and tests.
+# For the model-training pipeline, install: python -m pip install -e ".[ml]"
+-e .[serve,dev]

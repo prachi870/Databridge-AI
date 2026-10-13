@@ -1,0 +1,28 @@
+[
+  {
+    "id": "test-0",
+    "db_id": "concert_singer",
+    "question": "How many singers do we have?",
+    "gold": "SELECT count(*) FROM singer",
+    "local_sql": "SELECT count(*) FROM singer",
+    "local_ok": true,
+    "api_sql": "SELECT count(*) FROM singer",
+    "api_ok": true,
+    "score_sep": 0.12,
+    "score_token": 0.85,
+    "entropy": 0.0
+  },
+  {
+    "id": "test-1",
+    "db_id": "pets_1",
+    "question": "Find the maximum age of the dog",
+    "gold": "SELECT max(age) FROM Pets WHERE PetType = 'dog'",
+    "local_sql": "SELECT max(age) FROM Pets WHERE pet_type = 'dog'",
+    "local_ok": false,
+    "api_sql": "SELECT max(age) FROM Pets WHERE PetType = 'dog'",
+    "api_ok": true,
+    "score_sep": 0.78,
+    "score_token": 1.43,
+    "entropy": 2.1
+  }
+]

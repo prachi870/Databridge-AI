@@ -1,0 +1,16 @@
+{
+  "layer": 25,
+  "threshold": 0.37,
+  "alpha": 0.15,
+  "delta": 0.1,
+  "student": "Qwen2.5-Coder-3B",
+  "teacher": "Claude 3.5 Sonnet",
+  "costs": {
+    "c_prefill": 0.0001,
+    "c_decode": 0.00015,
+    "c_api": 0.003,
+    "gpu_usd_per_hour": 0.0,
+    "api_in_per_tok": 3e-06,
+    "api_out_per_tok": 1.5e-05
+  }
+}
